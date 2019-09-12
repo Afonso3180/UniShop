@@ -8,11 +8,11 @@ UniShop é um software de marketplace que visa facilitar e simplificar  a intera
 
 Equipe:
 
-●	Afonso Ramos Garcia Neto
-●	Danilo Souza Frazão
-●	Ícaro Santos Pereira
-●	João Vitor Matos dos Santos
-●	Willians Amaral de Oliveira
+●	Afonso Ramos Garcia Neto 
+●	Danilo Souza Frazão 
+●	Ícaro Santos Pereira 
+●	João Vitor Matos dos Santos 
+●	Willians Amaral de Oliveira 
 
 Vantagens
 
