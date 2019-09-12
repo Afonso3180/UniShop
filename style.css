@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -35,13 +36,21 @@ header nav {
     padding: 0 20px;
 }
 
-header nav .brand {
-    font-size: 1.6rem;
-    cursor: pointer;
+header nav .brand a {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, rgb(2, 110, 165), rgb(50, 216, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-header nav .brand:hover {
+header nav .brand a:hover {
     color: lightgrey;
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: rgb(50, 216, 218);
 }
 
 header nav .menu {
@@ -56,7 +65,7 @@ header nav .menu .menu-item a {
 }
 
 header nav .menu .menu-item a:hover {
-    color: lightgrey;
+    color: rgb(50, 216, 218);
 }
 header .content {
     display: flex;
@@ -240,7 +249,7 @@ article .items .item h3 {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 50px 100px;
     min-height: 250px;
@@ -352,6 +361,15 @@ footer .social img {
     cursor: pointer;
 }
 
+footer .doc a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .doc a:hover {
+    color: rgb(50, 216, 218);
+}
+
 @media only screen and (max-width: 768px) {
     header .content {
         padding: 10px;
@@ -380,5 +398,9 @@ footer .social img {
         padding-top: 50px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    footer .doc {
+        margin-top: 20px;
     }
 }
