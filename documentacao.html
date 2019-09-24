@@ -7,101 +7,243 @@
         <title>UniShop</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <style>
-            table {
-              font-family: arial, sans-serif;
-              border-collapse: collapse;
-              width: 100%;
-            }
-            
-            td, th {
-              border: 1px solid #dddddd;
-              text-align: left;
-              padding: 8px;
-            }
-            
-            tr:nth-child(even) {
-              background-color: #dddddd;
-            }
-            </style>
-            </head>
     <body>
         <main class="documentacao">
-            <h1 align='center'>Documentação do UniShop</h1>
+            <h1>Documentação</h1>
             <h2>1. Objetivo</h2>
-            <p>Desenvolver um aplicativo chamado <strong>UniShop</strong>. Tem a finalidade de criar um ambiente digital que une, 
-                facilite e simplifique a interação entre os vendedores e compradores da EST-UEA.</p>
-            
-            <hr>
-
-            <h2>2. Equipe:<h2/>
+            <p>
+                <strong>UniShop</strong> é um software de marketplace que visa
+                facilitar e simplificar a interação e o processo de venda de
+                produtos entre o vendedor e comprador.
+            </p>
+            <h2>2. Equipe:</h2>
             <ul>
-                <li style='font-size: 16px; font-weight: normal'>Afonso Ramos Garcia Neto</li>
-                <li style='font-size: 16px; font-weight: normal'>Danilo Souza Frazão</li>
-                <li style='font-size: 16px; font-weight: normal'>Ícaro Santos Pereira</li>
-                <li style='font-size: 16px; font-weight: normal'>João Vitor Matos dos Santos</li>
-                <li style='font-size: 16px; font-weight: normal'>Willians Amaral de Oliveira</li>
+                <li>Afonso Ramos Garcia Neto</li>
+                <li>Danilo Souza Frazão</li>
+                <li>Ícaro Santos Pereira</li>
+                <li>João Vitor Matos dos Santos</li>
+                <li>Willians Amaral de Oliveira</li>
             </ul>
-
-            <hr>
-            
-            <h2>3. Diagrama de Atividades:</h2>
+            <h2>3. Diagrama de Atividades sem UniShop:</h2>
             <img src="images/diagrama_mps.png">
-
-            <hr>
-
-            <h2>4. Diagrama de Atividades com aplicativo:</h2>
+            <h2>4. Diagrama de Atividades com UniShop:</h2>
             <img src="images/diagrama_mps_2.jpeg">
+            <h2>5. Requisitos Funcionais: </h2>
+            <div class="divTable">
+                <div class="divTableBody">
+                <div class="divTableRow">
+                <div class="divTableCell">#</div>
+                <div class="divTableCell">Descri&ccedil;&atilde;o</div>
+                <div class="divTableCell">Recorr&ecirc;ncia</div>
+                <div class="divTableCell">Criticidade</div>
+                <div class="divTableCell">Prioridade</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF001</div>
+                <div class="divTableCell">cadastrar_produto</div>
+                <div class="divTableCell">7</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">9</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF002</div>
+                <div class="divTableCell">finalizar_pedido</div>
+                <div class="divTableCell">4</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">8</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF003</div>
+                <div class="divTableCell">avaliar_pedido</div>
+                <div class="divTableCell">5</div>
+                <div class="divTableCell">7</div>
+                <div class="divTableCell">2</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF004</div>
+                <div class="divTableCell">realizar_login</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">10</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF005</div>
+                <div class="divTableCell">cadastrar_usuario</div>
+                <div class="divTableCell">1</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">10</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF006</div>
+                <div class="divTableCell">listar_vendedor</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">6</div>
+                <div class="divTableCell">7</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF007</div>
+                <div class="divTableCell">mostrar_produto</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">5</div>
+                <div class="divTableCell">8</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF008</div>
+                <div class="divTableCell">selecionar_produto</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">8</div>
+                <div class="divTableCell">4</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF009</div>
+                <div class="divTableCell">adicionar_ao_carrinho</div>
+                <div class="divTableCell">9</div>
+                <div class="divTableCell">6</div>
+                <div class="divTableCell">9</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF010</div>
+                <div class="divTableCell">calcular_total</div>
+                <div class="divTableCell">9</div>
+                <div class="divTableCell">6</div>
+                <div class="divTableCell">6</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF011</div>
+                <div class="divTableCell">finalizar_compra</div>
+                <div class="divTableCell">8</div>
+                <div class="divTableCell">9</div>
+                <div class="divTableCell">9</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF012</div>
+                <div class="divTableCell">escolher_forma_pagamento</div>
+                <div class="divTableCell">8</div>
+                <div class="divTableCell">7</div>
+                <div class="divTableCell">8</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF013</div>
+                <div class="divTableCell">notificar_vendedor</div>
+                <div class="divTableCell">8</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">9</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF014</div>
+                <div class="divTableCell">confirmar_entrega</div>
+                <div class="divTableCell">9</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">10</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF015</div>
+                <div class="divTableCell">confirmar_pagamento</div>
+                <div class="divTableCell">9</div>
+                <div class="divTableCell">10</div>
+                <div class="divTableCell">10</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RF016</div>
+                <div class="divTableCell">forma_de_retirada</div>
+                <div class="divTableCell">7</div>
+                <div class="divTableCell">7</div>
+                <div class="divTableCell">10</div>
+                </div>
+                </div>
+                </div>
+            <h2>6. Requisitos Não Funcionais</h2>
+            <div class="divTable"><colgroup><col width="100" /><col width="164" /><col width="566" /></colgroup>
+                <div class="divTableBody">
+                <div class="divTableRow">
+                <div class="divTableCell">#</div>
+                <div class="divTableCell">Descri&ccedil;&atilde;o</div>
+                <div class="divTableCell">M&eacute;trica</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF001</div>
+                <div class="divTableCell">Internet</div>
+                <div class="divTableCell">O aplicativo s&oacute; poder&aacute; ser utilizado mediante conex&atilde;o via internet.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF002</div>
+                <div class="divTableCell">Vers&atilde;o Android</div>
+                <div class="divTableCell">O aplicativo s&oacute; funcionar&aacute; na vers&atilde;o Android 4 ou superior.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF003</div>
+                <div class="divTableCell">Vers&atilde;o IOS</div>
+                <div class="divTableCell">O aplicativo s&oacute; poder&aacute; ser executado na vers&atilde;o IOS 12 ou superior</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF004</div>
+                <div class="divTableCell">Tamanho de imagem</div>
+                <div class="divTableCell">O aplicativo ser&aacute; exibido normalmente em todas as resolu&ccedil;&otilde;es de telas devido a responsividade.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF005</div>
+                <div class="divTableCell">Desempenho</div>
+                <div class="divTableCell">As a&ccedil;&otilde;es do marketplace ser&atilde;o executadas em menos de 2 segundos.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF006</div>
+                <div class="divTableCell">Traf&eacute;go</div>
+                <div class="divTableCell">A aplica&ccedil;&atilde;o suportar&aacute; at&eacute; 2000 acessos simult&acirc;neos</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF007</div>
+                <div class="divTableCell">Navegadores</div>
+                <div class="divTableCell">A vers&atilde;o para web funcionar&aacute; em todos os navegadores mais utilizados</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RNF008</div>
+                <div class="divTableCell">Seguran&ccedil;a</div>
+                <div class="divTableCell">O sistema garantir&aacute; a integridade dos dados dos usu&aacute;rios. (HTTPS, Captcha)</div>
+                </div>
+                </div>
+                </div>
+            <h2>7. Regras de Negócio</h2>
+            <div class="divTable">
+                <div class="divTableBody">
+                <div class="divTableRow">
+                <div class="divTableCell">#</div>
+                <div class="divTableCell">Descri&ccedil;&atilde;o</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN001</div>
+                <div class="divTableCell">O hor&aacute;rio de funcionamento do aplicativo iniciar&aacute; &agrave;s 6h da manh&atilde; e encerrar&aacute; &agrave;s 22h.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN002</div>
+                <div class="divTableCell">O vendedor que obtiver a avalia&ccedil;&atilde;o m&eacute;dia abaixo de 2 estrelas ser&aacute; impedido de comercializar os produtos por um certo tempo.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN003</div>
+                <div class="divTableCell">Os vendedores ter&atilde;o que ter algum v&iacute;nculo com a UEA.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN004</div>
+                <div class="divTableCell">O vendedor s&oacute; poder&aacute; receber o seus rendimentos obtido atrav&eacute;s do pagamento em cart&atilde;o de cr&eacute;dito ap&oacute;s 30 dias.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN005</div>
+                <div class="divTableCell">O vendedor dever&aacute; pagar uma taxa de 10% ao m&ecirc;s para o aplicativo.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN006</div>
+                <div class="divTableCell">O limite do tempo de entrega dever&aacute; ser de no m&aacute;ximo 10 minutos.</div>
+                </div>
+                <div class="divTableRow">
+                <div class="divTableCell">RDN007</div>
+                <div class="divTableCell">O vendedor poder&aacute; escolher se deseja buscar ou receber o produto</div>
+                </div>
+                </div>
+                </div>
 
-            <hr>
-
-            <h2>5. Requisitos Funcionais:</h2>
-            <ul>
-                <li style='font-size: 16px; font-weight: normal'>Cadastrar produto</li>
-                <li style='font-size: 16px; font-weight: normal'>Finalizar pedido</li>
-                <li style='font-size: 16px; font-weight: normal'>Avaliar pedido</li>
-                <li style='font-size: 16px; font-weight: normal'>Realizar login</li>
-                <li style='font-size: 16px; font-weight: normal'>Cadastrar usuário</li>
-                <li style='font-size: 16px; font-weight: normal'>Listar vendedor</li>
-                <li style='font-size: 16px; font-weight: normal'>Mostrar produto</li>
-                <li style='font-size: 16px; font-weight: normal'>Selecionar produto</li>
-                <li style='font-size: 16px; font-weight: normal'>Adicionar ao carrinho</li>
-                <li style='font-size: 16px; font-weight: normal'>Calcular total</li>
-                <li style='font-size: 16px; font-weight: normal'>finalizar compra</li>
-                <li style='font-size: 16px; font-weight: normal'>Escolher Forma de pagamento</li>
-                <li style='font-size: 16px; font-weight: normal'>Notificar vendedor</li>
-                <li style='font-size: 16px; font-weight: normal'>Notificar comprador</li>
-                <li style='font-size: 16px; font-weight: normal'>Confirmar entrega</li>
-                <li style='font-size: 16px; font-weight: normal'>Confirmar pagamento</li>
-                <li style='font-size: 16px; font-weight: normal'>Forma de retirada</li>
-            </ul>
-
-            <hr>
-
-            <h2>6. Requisitos Não Funcionais:</h2>
-            <ul>
-                <li style='font-size: 16px; font-weight: normal'>Internet - O aplicativo só poderá ser utilizado mediante conexão via internet</li>
-                <li style='font-size: 16px; font-weight: normal'>Versão android - O aplicativo só funcionará na versão Android 4 ou superior</li>
-                <li style='font-size: 16px; font-weight: normal'>Versão iOS - O aplicativo só poderá ser executado na versão IOS 12 ou superior</li>
-                <li style='font-size: 16px; font-weight: normal'>Tamanho de imagem - O aplicativo será exibido normalmente em todas as resoluções de telas devido a responsividade.</li>
-                <li style='font-size: 16px; font-weight: normal'>Desempenho - As ações do marketplace serão executadas em menos de 2 segundos</li>
-                <li style='font-size: 16px; font-weight: normal'>Trafégo - A aplicação suportará até 2000 acessos simultâneos</li>
-                <li style='font-size: 16px; font-weight: normal'>Navegadores - A versão para web funcionará em todos os navegadores mais utilizados</li>
-                <li style='font-size: 16px; font-weight: normal'>Segurança - O sistema garantirá a integridade dos dados dos usuários. (HTTPS, Captcha)</li>
-
-            </ul>
-            <hr>
-
-            <h2>7. Regras de Negócio:</h2>
-            <ul>
-                    <li style='font-size: 16px; font-weight: normal'>O horário de funcionamento do aplicativo iniciará às 6h da manhã e encerrará às 22h</li>
-                    <li style='font-size: 16px; font-weight: normal'>O vendedor que obtiver a avaliação média abaixo de 2 estrelas será impedido de comercializar os produtos por um certo tempo</li>
-                    <li style='font-size: 16px; font-weight: normal'>Os vendedores terão que ter algum vínculo com a UEA</li>
-                    <li style='font-size: 16px; font-weight: normal'>O vendedor só poderá receber o seus rendimentos obtido através do pagamento em cartão de crédito após 30 dias</li>
-                    <li style='font-size: 16px; font-weight: normal'>O vendedor deverá pagar uma taxa de 10% ao mês para o aplicativo</li>
-                    <li style='font-size: 16px; font-weight: normal'>O limite do tempo de entrega deverá ser de no máximo 10 minutos</li>
-                    <li style='font-size: 16px; font-weight: normal'>O vendedor poderá escolher se deseja buscar ou receber o produto</li>
-            </ul>
+            <br>
+            <div class="doc">
+                    <li><a href="glossario.html">Glossário</a></li>
+            </div>
         </main>
     </body>
 </html>
